@@ -11,7 +11,6 @@
 		5072F2B72850C5EE006B1448 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072F2B62850C5EE006B1448 /* SceneDelegate.swift */; };
 		5072F2BE2850C5F2006B1448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5072F2BD2850C5F2006B1448 /* Assets.xcassets */; };
 		5072F2C12850C5F2006B1448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5072F2BF2850C5F2006B1448 /* LaunchScreen.storyboard */; };
-		5072F2CC2850C5F2006B1448 /* GBShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072F2CB2850C5F2006B1448 /* GBShopTests.swift */; };
 		5072F2D62850C5F2006B1448 /* GBShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072F2D52850C5F2006B1448 /* GBShopUITests.swift */; };
 		5072F2D82850C5F2006B1448 /* GBShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072F2D72850C5F2006B1448 /* GBShopUITestsLaunchTests.swift */; };
 		5072F2EE285346AC006B1448 /* AbstractErrorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072F2ED285346AC006B1448 /* AbstractErrorParser.swift */; };
@@ -30,6 +29,13 @@
 		5072F30A28534F9B006B1448 /* RegistrationRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072F30928534F9B006B1448 /* RegistrationRequestFactory.swift */; };
 		5072F30E28535073006B1448 /* DefaultResponseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072F30D28535073006B1448 /* DefaultResponseResult.swift */; };
 		5072F31028535093006B1448 /* RegistrationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072F30F28535093006B1448 /* RegistrationResult.swift */; };
+		50B2791F286EAB3900DC0F8D /* AuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B2791E286EAB3900DC0F8D /* AuthTests.swift */; };
+		50B27921286EADFD00DC0F8D /* Popular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B27920286EADFD00DC0F8D /* Popular.swift */; };
+		50B27923286EAE1900DC0F8D /* CatalogPopular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B27922286EAE1900DC0F8D /* CatalogPopular.swift */; };
+		50B27925286EAE9300DC0F8D /* CatalogRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B27924286EAE9300DC0F8D /* CatalogRequestFactory.swift */; };
+		50B27927286EAEC400DC0F8D /* PopularRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B27926286EAEC400DC0F8D /* PopularRequestFactory.swift */; };
+		50B27929286EAF5100DC0F8D /* Populars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B27928286EAF5100DC0F8D /* Populars.swift */; };
+		50B2792B286EB09E00DC0F8D /* PopularsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B2792A286EB09E00DC0F8D /* PopularsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +63,6 @@
 		5072F2C02850C5F2006B1448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5072F2C22850C5F2006B1448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5072F2C72850C5F2006B1448 /* GBShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5072F2CB2850C5F2006B1448 /* GBShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBShopTests.swift; sourceTree = "<group>"; };
 		5072F2D12850C5F2006B1448 /* GBShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5072F2D52850C5F2006B1448 /* GBShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBShopUITests.swift; sourceTree = "<group>"; };
 		5072F2D72850C5F2006B1448 /* GBShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -76,6 +81,13 @@
 		5072F30928534F9B006B1448 /* RegistrationRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationRequestFactory.swift; sourceTree = "<group>"; };
 		5072F30D28535073006B1448 /* DefaultResponseResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultResponseResult.swift; sourceTree = "<group>"; };
 		5072F30F28535093006B1448 /* RegistrationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationResult.swift; sourceTree = "<group>"; };
+		50B2791E286EAB3900DC0F8D /* AuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTests.swift; sourceTree = "<group>"; };
+		50B27920286EADFD00DC0F8D /* Popular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popular.swift; sourceTree = "<group>"; };
+		50B27922286EAE1900DC0F8D /* CatalogPopular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogPopular.swift; sourceTree = "<group>"; };
+		50B27924286EAE9300DC0F8D /* CatalogRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogRequestFactory.swift; sourceTree = "<group>"; };
+		50B27926286EAEC400DC0F8D /* PopularRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularRequestFactory.swift; sourceTree = "<group>"; };
+		50B27928286EAF5100DC0F8D /* Populars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Populars.swift; sourceTree = "<group>"; };
+		50B2792A286EB09E00DC0F8D /* PopularsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +152,8 @@
 		5072F2CA2850C5F2006B1448 /* GBShopTests */ = {
 			isa = PBXGroup;
 			children = (
-				5072F2CB2850C5F2006B1448 /* GBShopTests.swift */,
+				50B2791E286EAB3900DC0F8D /* AuthTests.swift */,
+				50B2792A286EB09E00DC0F8D /* PopularsTests.swift */,
 			);
 			path = GBShopTests;
 			sourceTree = "<group>";
@@ -180,6 +193,8 @@
 				5072F2FC28534DCE006B1448 /* User.swift */,
 				5072F30D28535073006B1448 /* DefaultResponseResult.swift */,
 				5072F30F28535093006B1448 /* RegistrationResult.swift */,
+				50B27920286EADFD00DC0F8D /* Popular.swift */,
+				50B27922286EAE1900DC0F8D /* CatalogPopular.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -240,6 +255,7 @@
 			children = (
 				5072F30C28534FC5006B1448 /* Factory */,
 				5072F30128534EC6006B1448 /* Auth.swift */,
+				50B27928286EAF5100DC0F8D /* Populars.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -252,6 +268,8 @@
 				5072F30528534F57006B1448 /* ChangeUserDataRequestFactory.swift */,
 				5072F30728534F7C006B1448 /* LogOutRequestFactory.swift */,
 				5072F30928534F9B006B1448 /* RegistrationRequestFactory.swift */,
+				50B27924286EAE9300DC0F8D /* CatalogRequestFactory.swift */,
+				50B27926286EAEC400DC0F8D /* PopularRequestFactory.swift */,
 			);
 			path = Factory;
 			sourceTree = "<group>";
@@ -394,16 +412,21 @@
 			files = (
 				5072F30628534F57006B1448 /* ChangeUserDataRequestFactory.swift in Sources */,
 				5072F30428534F2A006B1448 /* RequestFactory.swift in Sources */,
+				50B27927286EAEC400DC0F8D /* PopularRequestFactory.swift in Sources */,
 				5072F2F528534A2F006B1448 /* AbstractRequestFactory.swift in Sources */,
 				5072F31028535093006B1448 /* RegistrationResult.swift in Sources */,
 				5072F2F728534BD7006B1448 /* ErrorParser.swift in Sources */,
+				50B27921286EADFD00DC0F8D /* Popular.swift in Sources */,
 				5072F30828534F7C006B1448 /* LogOutRequestFactory.swift in Sources */,
 				5072F30028534E77006B1448 /* AuthRequestFactory.swift in Sources */,
 				5072F2F928534CD2006B1448 /* RequestRouter.swift in Sources */,
 				5072F2EE285346AC006B1448 /* AbstractErrorParser.swift in Sources */,
+				50B27929286EAF5100DC0F8D /* Populars.swift in Sources */,
 				5072F2FB28534DBD006B1448 /* LoginResult.swift in Sources */,
+				50B27923286EAE1900DC0F8D /* CatalogPopular.swift in Sources */,
 				5072F30E28535073006B1448 /* DefaultResponseResult.swift in Sources */,
 				5072F30228534EC6006B1448 /* Auth.swift in Sources */,
+				50B27925286EAE9300DC0F8D /* CatalogRequestFactory.swift in Sources */,
 				5072F30A28534F9B006B1448 /* RegistrationRequestFactory.swift in Sources */,
 				5072F2FD28534DCE006B1448 /* User.swift in Sources */,
 				5072F2B52850C5EE006B1448 /* AppDelegate.swift in Sources */,
@@ -416,7 +439,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5072F2CC2850C5F2006B1448 /* GBShopTests.swift in Sources */,
+				50B2791F286EAB3900DC0F8D /* AuthTests.swift in Sources */,
+				50B2792B286EB09E00DC0F8D /* PopularsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,7 +606,6 @@
 				INFOPLIST_FILE = GBShop/Environments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -610,7 +633,6 @@
 				INFOPLIST_FILE = GBShop/Environments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
