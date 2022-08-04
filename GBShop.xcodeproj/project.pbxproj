@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50670925289BEEA200C89214 /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50670924289BEEA200C89214 /* CatalogViewController.swift */; };
+		50670927289BEF2D00C89214 /* CatalogPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50670926289BEF2D00C89214 /* CatalogPresenter.swift */; };
+		50670929289BEF5F00C89214 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50670928289BEF5F00C89214 /* ProductCollectionViewCell.swift */; };
+		5067092B289BEFC000C89214 /* UIImage+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5067092A289BEFC000C89214 /* UIImage+ext.swift */; };
 		5072F2B52850C5EE006B1448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072F2B42850C5EE006B1448 /* AppDelegate.swift */; };
 		5072F2B72850C5EE006B1448 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072F2B62850C5EE006B1448 /* SceneDelegate.swift */; };
 		5072F2BE2850C5F2006B1448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5072F2BD2850C5F2006B1448 /* Assets.xcassets */; };
@@ -55,7 +59,6 @@
 		50EEF8A7288170CB00A32945 /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EEF8A6288170CB00A32945 /* UIButton+Ext.swift */; };
 		50EEF8A9288170E800A32945 /* UIColor+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EEF8A8288170E800A32945 /* UIColor+ext.swift */; };
 		50EEF8AC2881713100A32945 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EEF8AB2881713100A32945 /* BasketViewController.swift */; };
-		50EEF8AE2881718200A32945 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EEF8AD2881718200A32945 /* MainViewController.swift */; };
 		50EEF8B0288171DA00A32945 /* BasketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EEF8AF288171DA00A32945 /* BasketTests.swift */; };
 		50EEF8BB2892AA7700A32945 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EEF8BA2892AA7700A32945 /* LoginViewController.swift */; };
 		50EEF8BD2892AAE700A32945 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EEF8BC2892AAE700A32945 /* ProfileViewController.swift */; };
@@ -89,6 +92,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50670924289BEEA200C89214 /* CatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
+		50670926289BEF2D00C89214 /* CatalogPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogPresenter.swift; sourceTree = "<group>"; };
+		50670928289BEF5F00C89214 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		5067092A289BEFC000C89214 /* UIImage+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+ext.swift"; sourceTree = "<group>"; };
 		5072F2B12850C5EE006B1448 /* GBShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5072F2B42850C5EE006B1448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5072F2B62850C5EE006B1448 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -138,7 +145,6 @@
 		50EEF8A6288170CB00A32945 /* UIButton+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Ext.swift"; sourceTree = "<group>"; };
 		50EEF8A8288170E800A32945 /* UIColor+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ext.swift"; sourceTree = "<group>"; };
 		50EEF8AB2881713100A32945 /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
-		50EEF8AD2881718200A32945 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		50EEF8AF288171DA00A32945 /* BasketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketTests.swift; sourceTree = "<group>"; };
 		50EEF8BA2892AA7700A32945 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		50EEF8BC2892AAE700A32945 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -373,6 +379,7 @@
 				50EEF8CB2892ACAA00A32945 /* LoginFormView.swift */,
 				50EEF8CD2892AD0000A32945 /* ProfileView.swift */,
 				50EEF8CF2892AD3200A32945 /* RegistrationFormView.swift */,
+				50670928289BEF5F00C89214 /* ProductCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -383,6 +390,7 @@
 				50EEF8A6288170CB00A32945 /* UIButton+Ext.swift */,
 				50EEF8A8288170E800A32945 /* UIColor+ext.swift */,
 				50EEF8D12892ADA300A32945 /* UIFont+ext.swift */,
+				5067092A289BEFC000C89214 /* UIImage+ext.swift */,
 			);
 			path = Ext;
 			sourceTree = "<group>";
@@ -391,7 +399,7 @@
 			isa = PBXGroup;
 			children = (
 				50EEF8AB2881713100A32945 /* BasketViewController.swift */,
-				50EEF8AD2881718200A32945 /* MainViewController.swift */,
+				50670924289BEEA200C89214 /* CatalogViewController.swift */,
 				50EEF8BA2892AA7700A32945 /* LoginViewController.swift */,
 				50EEF8BC2892AAE700A32945 /* ProfileViewController.swift */,
 				50EEF8BE2892AB1C00A32945 /* RegistrationViewController.swift */,
@@ -407,6 +415,7 @@
 				50EEF8C52892ABDD00A32945 /* LoginPresenter.swift */,
 				50EEF8C72892AC0700A32945 /* ProfilePresenter.swift */,
 				50EEF8C92892AC3700A32945 /* RegistrationPresenter.swift */,
+				50670926289BEF2D00C89214 /* CatalogPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -567,11 +576,13 @@
 				50EEF89728816AFD00A32945 /* BasketRemoveRequestFactory.swift in Sources */,
 				50EEF8A7288170CB00A32945 /* UIButton+Ext.swift in Sources */,
 				50B27921286EADFD00DC0F8D /* Popular.swift in Sources */,
+				50670929289BEF5F00C89214 /* ProductCollectionViewCell.swift in Sources */,
 				50EEF89C28816D5E00A32945 /* MainView.swift in Sources */,
 				50EEF8AC2881713100A32945 /* BasketViewController.swift in Sources */,
 				50EEF8832877FCF600A32945 /* Review.swift in Sources */,
 				5072F30828534F7C006B1448 /* LogOutRequestFactory.swift in Sources */,
 				50EEF8A9288170E800A32945 /* UIColor+ext.swift in Sources */,
+				50670927289BEF2D00C89214 /* CatalogPresenter.swift in Sources */,
 				50EEF8BF2892AB1C00A32945 /* RegistrationViewController.swift in Sources */,
 				5072F30028534E77006B1448 /* AuthRequestFactory.swift in Sources */,
 				5072F2F928534CD2006B1448 /* RequestRouter.swift in Sources */,
@@ -580,11 +591,11 @@
 				50B27929286EAF5100DC0F8D /* Populars.swift in Sources */,
 				50EEF8CE2892AD0000A32945 /* ProfileView.swift in Sources */,
 				5072F2FB28534DBD006B1448 /* LoginResult.swift in Sources */,
+				50670925289BEEA200C89214 /* CatalogViewController.swift in Sources */,
 				50B27923286EAE1900DC0F8D /* CatalogPopular.swift in Sources */,
 				50EEF87D2877FC5B00A32945 /* ReviewAddRequestFactory.swift in Sources */,
 				5072F30E28535073006B1448 /* DefaultResponseResult.swift in Sources */,
 				50EEF8932881693B00A32945 /* BasketPayRequestFactory.swift in Sources */,
-				50EEF8AE2881718200A32945 /* MainViewController.swift in Sources */,
 				50EEF8BB2892AA7700A32945 /* LoginViewController.swift in Sources */,
 				50EEF8D22892ADA300A32945 /* UIFont+ext.swift in Sources */,
 				50EEF8812877FCA100A32945 /* ReviewsRequestFactory.swift in Sources */,
@@ -595,6 +606,7 @@
 				50EEF8CC2892ACAA00A32945 /* LoginFormView.swift in Sources */,
 				5072F2FD28534DCE006B1448 /* User.swift in Sources */,
 				50EEF8CA2892AC3700A32945 /* RegistrationPresenter.swift in Sources */,
+				5067092B289BEFC000C89214 /* UIImage+ext.swift in Sources */,
 				5072F2B52850C5EE006B1448 /* AppDelegate.swift in Sources */,
 				50EEF8D02892AD3200A32945 /* RegistrationFormView.swift in Sources */,
 				50EEF8C62892ABDD00A32945 /* LoginPresenter.swift in Sources */,

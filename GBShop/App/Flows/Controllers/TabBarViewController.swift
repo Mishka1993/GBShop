@@ -36,9 +36,13 @@ class TabBarViewController: UITabBarController {
         let profileViewController = ProfileViewController(presenter: provfilePresenter)
         provfilePresenter.viewInput = profileViewController
         
+        let catalogPresenter = CatalogPresenter()
+        let catalogViewController = CatalogViewController(presenter: catalogPresenter)
+        catalogPresenter.viewInput = catalogViewController
+        
         viewControllers = [
             createNavController(
-                for: MainViewController(),
+                for: catalogViewController,
                 title: NSLocalizedString("Catalog", comment: ""),
                 image: UIImage(systemName: "note.text")!
             ),
