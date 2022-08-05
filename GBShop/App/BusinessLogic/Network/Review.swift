@@ -22,7 +22,7 @@ class Review: AbstractRequestFactory {
 }
 
 extension Review {
-    struct List: RequestRouter {
+    struct ReviewList: RequestRouter {
         let baseUrl: URL
         let method: HTTPMethod = .get
         let path: String = "reviews"
@@ -34,7 +34,7 @@ extension Review {
 
 extension Review: ReviewsRequestFactory {
     func list(completionHandler: @escaping (AFDataResponse<Comments>) -> Void) {
-        let requestModel = List(baseUrl: baseUrl)
+        let requestModel = ReviewList(baseUrl: baseUrl)
         request(request: requestModel, completionHandler: completionHandler)
     }
 }
