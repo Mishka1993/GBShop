@@ -8,7 +8,7 @@
 import UIKit
 
 protocol CatalogViewOutput: AnyObject {
-    func viewDidTapBasketBtn()
+    func viewDidTapDetailPorudctBtn(good: Popular)
     func fetchCatalogData()
 }
 
@@ -17,12 +17,12 @@ final class CatalogPresenter {
 }
 
 extension CatalogPresenter: CatalogViewOutput {
-    func viewDidTapBasketBtn() {
-        let basketPresenter = BasketPresenter()
-        let basketVc = BasketViewController(presenter: basketPresenter)
-        basketPresenter.viewInput = basketVc
-        viewInput?.navigationController?.pushViewController(basketVc, animated: true)
-    }
+    func viewDidTapDetailPorudctBtn(good: Popular) {
+             let detailProductPresenter = DetailProductPresenter()
+             let detailProductVc = DetailProductViewController(presenter: detailProductPresenter, good: good)
+             detailProductPresenter.viewInput = detailProductVc
+             viewInput?.navigationController?.pushViewController(detailProductVc, animated: true)
+         }
     
     func fetchCatalogData() {
         guard let request = requestFactory?.makeCatalogGoodDataFactory() else { return }
@@ -31,8 +31,8 @@ extension CatalogPresenter: CatalogViewOutput {
                 switch response.result {
                 case .failure:
                     self?.viewInput?.showError()
-                case let .success(catalog):
-                    self?.viewInput?.showDataView(products: catalog)
+                case let .success(Popular):
+                    self?.viewInput?.showDataView(products: Popular)
                 }
             }
         }

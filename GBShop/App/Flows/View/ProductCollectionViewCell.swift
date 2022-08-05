@@ -98,9 +98,9 @@ import UIKit
  }
 
  extension ProductCollectionViewCell {
-     func configure(product: CatalogPopular) {
-         imageView.lazyLoadingImage(link: product.imageUrl, contentMode: .scaleAspectFit)
-         productDescriptionLabel.text = product.productName
-         productPriceLabel.text = "\(product.productPrice)₽"
-     }
+     func configure(good: Popular) {
+              imageView.lazyLoadingImage(link: good.imageUrl, contentMode: .scaleAspectFit)
+              productDescriptionLabel.text = good.productName
+              productPriceLabel.text = "\(good.productPrice)₽"
+          }
  }
