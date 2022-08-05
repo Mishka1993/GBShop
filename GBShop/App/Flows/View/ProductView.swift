@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-final class BasketView: UIView {
+final class ProductView: UIView {
     let sizeInset: CGFloat = 20
     
     lazy var breadcrumbLabel: UILabel = {
@@ -65,15 +65,15 @@ final class BasketView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        setupLayout()
+        configureUI()
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        setupLayout()
+        configureUI()
     }
     
-    private func setupLayout() {
+    private func configureUI() {
         addSubview(breadcrumbLabel)
         addSubview(imageView)
         addSubview(producnNameLabel)
