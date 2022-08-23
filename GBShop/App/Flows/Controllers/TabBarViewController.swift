@@ -26,6 +26,7 @@ class TabBarViewController: UITabBarController {
         navController.navigationBar.prefersLargeTitles = true
         navController.navigationItem.largeTitleDisplayMode = .automatic
         rootViewController.navigationItem.title = title
+        navController.navigationBar.accessibilityIdentifier = "pageTitle"
         rootViewController.title = title
         return navController
     }
