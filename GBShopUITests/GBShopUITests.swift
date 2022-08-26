@@ -4,7 +4,7 @@
 //
 //  Created by Михаил Киржнер on 08.06.2022.
 //
-
+//
 import XCTest
 
 class GBShopUITests: XCTestCase {
